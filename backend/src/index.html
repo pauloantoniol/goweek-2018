@@ -1,0 +1,18 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Teste socket</title>
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      var socket = io('http://localhost:3000');
+      socket.on('tweet',function(data){
+        console.log(data);
+      });
+      socket.on('like',function(data){
+        console.log(data);
+      });
+    </script>
+  </body>
+</html>
