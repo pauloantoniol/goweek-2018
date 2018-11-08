@@ -26,5 +26,5 @@ app.use(require("./routes"));
 // COMEÇA A OUVIR A PORTA 3000 EXECUTANDO UMA FUNÇÃO AO COMEÇAR A OUVIR
 server.listen(3000, () => {
   //EXIBE O CONSOLE DEPOIS QUE COMEÇA A OUVIR A PORTA 3000
-  console.log("Server started on port 3000");
+  console.log(":) Server started on port 3000");
 });
